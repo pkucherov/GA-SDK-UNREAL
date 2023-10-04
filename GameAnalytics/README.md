@@ -31,6 +31,22 @@ If you have any issues or feedback regarding the SDK, please contact our friendl
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**5.4.2**
+* fixed compilation warnings for android (fix for builds using -werror flag)
+
+**5.4.1**
+* fixed a bug where the android library would fail to load in some cases
+* implemented new method to retrieve the device name for win64
+
+**5.4.0**
+* support for UE 5.2.0 preview
+
+**5.3.1**
+* fixed a compilation issue on android for ndk25
+
+**5.3.0**
+* updated plugin for unreal 5.1
+
 **5.2.0**
 * added support for unreal 5
 
